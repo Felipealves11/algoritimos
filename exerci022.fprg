@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="felipe.alves"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-05 02:26:54 "/>
+        <attribute name="created" value="ZmVsaXBlLmFsdmVzO05UMTM7MjAyNC0wMi0wNTsiMDE6NDI6MjYgIjsyNjYx"/>
+        <attribute name="edited" value="ZmVsaXBlLmFsdmVzO05UMTM7MjAyNC0wMi0wNTsiMDI6MjY6NTQgIjsxOzI3NzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, media" type="Real" array="False" size=""/>
+            <input variable="nome"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <assign variable="media" expression="(nota1*2+nota2*3+nota3*5)/10"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

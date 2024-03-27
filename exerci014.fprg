@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="felipe.alves"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-29 03:06:26 "/>
+        <attribute name="created" value="ZmVsaXBlLmFsdmVzO0RFU0tUT1AtVElUVjNJNTsyMDI0LTAxLTI5OyIwMjo1MTo0MSAiOzM0ODk="/>
+        <attribute name="edited" value="ZmVsaXBlLmFsdmVzO0RFU0tUT1AtVElUVjNJNTsyMDI0LTAxLTI5OyIwMzowNjoyNiAiOzE7MzYwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="altura, peso, imc" type="Real" array="False" size=""/>
+            <input variable="altura"/>
+            <input variable="peso"/>
+            <assign variable="imc" expression="peso/(altura^2)"/>
+            <output expression="imc" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

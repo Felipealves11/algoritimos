@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sofia.pereira"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-19 04:14:06 "/>
+        <attribute name="created" value="c29maWEucGVyZWlyYTtOVDE1OzIwMjQtMDItMTk7IjAyOjM3OjQ4ICI7Mjc4Mw=="/>
+        <attribute name="edited" value="c29maWEucGVyZWlyYTtOVDE1OzIwMjQtMDItMTk7IjAzOjEwOjI4ICI7MjsyODgy"/>
+        <attribute name="edited" value="ZmVsaXBlLmFsdmVzO05UMTM7MjAyNC0wMi0xOTsiMDQ6MTQ6MDYgIjsxOzI3NzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arq, reg" type="String" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="arq" expression="&quot;teste.txt&quot;"/>
+            <open expression="arq" mode="read"/>
+            <assign variable="reg" expression="&quot;id, nome, salario, diastrab, inss, bcir, ir, vt, vr, salliq&quot;"/>
+            <write expression="reg"/>
+            <while expression="n&lt;=3">
+                <read variable="arq"/>
+                <output expression="arq" newline="True"/>
+            </while>
+            <close mode="read"/>
+        </body>
+    </function>
+</flowgorithm>
